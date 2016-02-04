@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941E28091C63795C007F9AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E28081C63795C007F9AF4 /* AppDelegate.swift */; };
+		941E280B1C63795C007F9AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E280A1C63795C007F9AF4 /* ViewController.swift */; };
+		941E280E1C63795C007F9AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941E280C1C63795C007F9AF4 /* Main.storyboard */; };
+		941E28101C63795C007F9AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941E280F1C63795C007F9AF4 /* Assets.xcassets */; };
+		941E28131C63795C007F9AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941E28111C63795C007F9AF4 /* LaunchScreen.storyboard */; };
+		941E281E1C63795C007F9AF4 /* KSLProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E281D1C63795C007F9AF4 /* KSLProgressBarTests.swift */; };
+		941E28291C63795C007F9AF4 /* KSLProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E28281C63795C007F9AF4 /* KSLProgressBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941E281A1C63795C007F9AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941E27FD1C63795C007F9AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941E28041C63795C007F9AF4;
+			remoteInfo = KSLProgressBar;
+		};
+		941E28251C63795C007F9AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941E27FD1C63795C007F9AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941E28041C63795C007F9AF4;
+			remoteInfo = KSLProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		941E28051C63795C007F9AF4 /* KSLProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSLProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941E28081C63795C007F9AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		941E280A1C63795C007F9AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		941E280D1C63795C007F9AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		941E280F1C63795C007F9AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941E28121C63795C007F9AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		941E28141C63795C007F9AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941E28191C63795C007F9AF4 /* KSLProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		941E281D1C63795C007F9AF4 /* KSLProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLProgressBarTests.swift; sourceTree = "<group>"; };
+		941E281F1C63795C007F9AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941E28241C63795C007F9AF4 /* KSLProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		941E28281C63795C007F9AF4 /* KSLProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLProgressBarUITests.swift; sourceTree = "<group>"; };
+		941E282A1C63795C007F9AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941E28021C63795C007F9AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28161C63795C007F9AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28211C63795C007F9AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941E27FC1C63795C007F9AF4 = {
+			isa = PBXGroup;
+			children = (
+				941E28071C63795C007F9AF4 /* KSLProgressBar */,
+				941E281C1C63795C007F9AF4 /* KSLProgressBarTests */,
+				941E28271C63795C007F9AF4 /* KSLProgressBarUITests */,
+				941E28061C63795C007F9AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941E28061C63795C007F9AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				941E28051C63795C007F9AF4 /* KSLProgressBar.app */,
+				941E28191C63795C007F9AF4 /* KSLProgressBarTests.xctest */,
+				941E28241C63795C007F9AF4 /* KSLProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941E28071C63795C007F9AF4 /* KSLProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				941E28081C63795C007F9AF4 /* AppDelegate.swift */,
+				941E280A1C63795C007F9AF4 /* ViewController.swift */,
+				941E280C1C63795C007F9AF4 /* Main.storyboard */,
+				941E280F1C63795C007F9AF4 /* Assets.xcassets */,
+				941E28111C63795C007F9AF4 /* LaunchScreen.storyboard */,
+				941E28141C63795C007F9AF4 /* Info.plist */,
+			);
+			path = KSLProgressBar;
+			sourceTree = "<group>";
+		};
+		941E281C1C63795C007F9AF4 /* KSLProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				941E281D1C63795C007F9AF4 /* KSLProgressBarTests.swift */,
+				941E281F1C63795C007F9AF4 /* Info.plist */,
+			);
+			path = KSLProgressBarTests;
+			sourceTree = "<group>";
+		};
+		941E28271C63795C007F9AF4 /* KSLProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				941E28281C63795C007F9AF4 /* KSLProgressBarUITests.swift */,
+				941E282A1C63795C007F9AF4 /* Info.plist */,
+			);
+			path = KSLProgressBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		941E28041C63795C007F9AF4 /* KSLProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941E282D1C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBar" */;
+			buildPhases = (
+				941E28011C63795C007F9AF4 /* Sources */,
+				941E28021C63795C007F9AF4 /* Frameworks */,
+				941E28031C63795C007F9AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSLProgressBar;
+			productName = KSLProgressBar;
+			productReference = 941E28051C63795C007F9AF4 /* KSLProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		941E28181C63795C007F9AF4 /* KSLProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941E28301C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarTests" */;
+			buildPhases = (
+				941E28151C63795C007F9AF4 /* Sources */,
+				941E28161C63795C007F9AF4 /* Frameworks */,
+				941E28171C63795C007F9AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941E281B1C63795C007F9AF4 /* PBXTargetDependency */,
+			);
+			name = KSLProgressBarTests;
+			productName = KSLProgressBarTests;
+			productReference = 941E28191C63795C007F9AF4 /* KSLProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		941E28231C63795C007F9AF4 /* KSLProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941E28331C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarUITests" */;
+			buildPhases = (
+				941E28201C63795C007F9AF4 /* Sources */,
+				941E28211C63795C007F9AF4 /* Frameworks */,
+				941E28221C63795C007F9AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941E28261C63795C007F9AF4 /* PBXTargetDependency */,
+			);
+			name = KSLProgressBarUITests;
+			productName = KSLProgressBarUITests;
+			productReference = 941E28241C63795C007F9AF4 /* KSLProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941E27FD1C63795C007F9AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kusal Shrestha";
+				TargetAttributes = {
+					941E28041C63795C007F9AF4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					941E28181C63795C007F9AF4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 941E28041C63795C007F9AF4;
+					};
+					941E28231C63795C007F9AF4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 941E28041C63795C007F9AF4;
+					};
+				};
+			};
+			buildConfigurationList = 941E28001C63795C007F9AF4 /* Build configuration list for PBXProject "KSLProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 941E27FC1C63795C007F9AF4;
+			productRefGroup = 941E28061C63795C007F9AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941E28041C63795C007F9AF4 /* KSLProgressBar */,
+				941E28181C63795C007F9AF4 /* KSLProgressBarTests */,
+				941E28231C63795C007F9AF4 /* KSLProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941E28031C63795C007F9AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941E28131C63795C007F9AF4 /* LaunchScreen.storyboard in Resources */,
+				941E28101C63795C007F9AF4 /* Assets.xcassets in Resources */,
+				941E280E1C63795C007F9AF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28171C63795C007F9AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28221C63795C007F9AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941E28011C63795C007F9AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941E280B1C63795C007F9AF4 /* ViewController.swift in Sources */,
+				941E28091C63795C007F9AF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28151C63795C007F9AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941E281E1C63795C007F9AF4 /* KSLProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E28201C63795C007F9AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941E28291C63795C007F9AF4 /* KSLProgressBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941E281B1C63795C007F9AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941E28041C63795C007F9AF4 /* KSLProgressBar */;
+			targetProxy = 941E281A1C63795C007F9AF4 /* PBXContainerItemProxy */;
+		};
+		941E28261C63795C007F9AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941E28041C63795C007F9AF4 /* KSLProgressBar */;
+			targetProxy = 941E28251C63795C007F9AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		941E280C1C63795C007F9AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941E280D1C63795C007F9AF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		941E28111C63795C007F9AF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941E28121C63795C007F9AF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		941E282B1C63795C007F9AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		941E282C1C63795C007F9AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941E282E1C63795C007F9AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSLProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		941E282F1C63795C007F9AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSLProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		941E28311C63795C007F9AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSLProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSLProgressBar.app/KSLProgressBar";
+			};
+			name = Debug;
+		};
+		941E28321C63795C007F9AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSLProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSLProgressBar.app/KSLProgressBar";
+			};
+			name = Release;
+		};
+		941E28341C63795C007F9AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSLProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSLProgressBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		941E28351C63795C007F9AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSLProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.KSLProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSLProgressBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941E28001C63795C007F9AF4 /* Build configuration list for PBXProject "KSLProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941E282B1C63795C007F9AF4 /* Debug */,
+				941E282C1C63795C007F9AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941E282D1C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941E282E1C63795C007F9AF4 /* Debug */,
+				941E282F1C63795C007F9AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		941E28301C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941E28311C63795C007F9AF4 /* Debug */,
+				941E28321C63795C007F9AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		941E28331C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941E28341C63795C007F9AF4 /* Debug */,
+				941E28351C63795C007F9AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941E27FD1C63795C007F9AF4 /* Project object */;
+}
