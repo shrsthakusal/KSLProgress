@@ -14,6 +14,8 @@
 		941E28131C63795C007F9AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941E28111C63795C007F9AF4 /* LaunchScreen.storyboard */; };
 		941E281E1C63795C007F9AF4 /* KSLProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E281D1C63795C007F9AF4 /* KSLProgressBarTests.swift */; };
 		941E28291C63795C007F9AF4 /* KSLProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E28281C63795C007F9AF4 /* KSLProgressBarUITests.swift */; };
+		941E28391C6379B4007F9AF4 /* KSLProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E28361C6379B4007F9AF4 /* KSLProgressView.swift */; };
+		941E283B1C6379B4007F9AF4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E28381C6379B4007F9AF4 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		941E28241C63795C007F9AF4 /* KSLProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941E28281C63795C007F9AF4 /* KSLProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLProgressBarUITests.swift; sourceTree = "<group>"; };
 		941E282A1C63795C007F9AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941E28361C6379B4007F9AF4 /* KSLProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLProgressView.swift; sourceTree = "<group>"; };
+		941E28381C6379B4007F9AF4 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				941E28081C63795C007F9AF4 /* AppDelegate.swift */,
 				941E280A1C63795C007F9AF4 /* ViewController.swift */,
+				941E28361C6379B4007F9AF4 /* KSLProgressView.swift */,
+				941E28381C6379B4007F9AF4 /* Utility.swift */,
 				941E280C1C63795C007F9AF4 /* Main.storyboard */,
 				941E280F1C63795C007F9AF4 /* Assets.xcassets */,
 				941E28111C63795C007F9AF4 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941E283B1C6379B4007F9AF4 /* Utility.swift in Sources */,
 				941E280B1C63795C007F9AF4 /* ViewController.swift in Sources */,
 				941E28091C63795C007F9AF4 /* AppDelegate.swift in Sources */,
+				941E28391C6379B4007F9AF4 /* KSLProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				941E282F1C63795C007F9AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		941E28301C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				941E28321C63795C007F9AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		941E28331C63795C007F9AF4 /* Build configuration list for PBXNativeTarget "KSLProgressBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				941E28351C63795C007F9AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
